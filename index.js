@@ -126,6 +126,17 @@ const circle = {
 // OOPS 
 // 4 pillers
 // 1 Encapsulation
-// 2 Abstraction
+// 2 Abstraction hide all the complex properties and show meaningfull use
 // 3 Inheritance
 // 4 Polymorphism
+
+
+// function BankAccount (customerName, balance = 0) {
+//   this.customerName = customerName;
+//   this.accountNumber = Date.now();
+//   this.balance = balance
+// }
+
+// const saurabhAccount = new BankAccount("Saurabh Singh", 2000);
+// const gauravSingh = new BankAccount("Gaurabh Singh",78643743 )
+// console.log(saurabhAccount, gauravSingh);
